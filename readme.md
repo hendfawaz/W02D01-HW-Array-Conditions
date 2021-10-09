@@ -8,7 +8,6 @@
 - Create an array of the following numbers [16,4,2,0,19,6]
 - Loop through the array elements and print the maximum number of this list to the console.
 
-<br><br>
 
 
 ## Nested for loop
@@ -25,7 +24,6 @@
 \***** <br>
 
 
-<br><br>
 
 
 ## While loop
@@ -35,7 +33,7 @@
 Note: A number is prime if it is divided by 1 and itself only.
 
 
-<br><br>
+
 
 
 ## Arrays
