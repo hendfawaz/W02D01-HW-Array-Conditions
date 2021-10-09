@@ -8,6 +8,9 @@
 - Create an array of the following numbers [16,4,2,0,19,6]
 - Loop through the array elements and print the maximum number of this list to the console.
 
+### Reverse Array 
+- Create an array of the following numbers [1,2,3,4,5,6,7,8,9,10]
+- print the array in a reverse order
 
 
 ## Nested for loop
