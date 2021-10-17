@@ -76,3 +76,10 @@ console.log(mass);
 
 let height4=characters.every((el)=>(el.height<200));
 console.log(height);
+
+const sortNames = fname.sort()
+console.log(sortNames)
+
+const sortGender = genders.sort() 
+console.log(sortGender)
+
