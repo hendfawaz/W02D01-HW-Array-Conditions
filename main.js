@@ -28,7 +28,7 @@ const characters = [
         gender: 'male',
     },
 ];
-
+// For Loop
 
 let Numbers = [23,54,32,87,47];
 let sum = Numbers.reduce(
@@ -44,7 +44,11 @@ for (var i=0;i< theLegth;i++){
    let theValuePopped= Numbers3.pop()
    newArray.push(theValuePopped)
 }
+
 console.log(newArray)
+
+
+// ArrayMap
 
 let names = characters.map( (element)=>  element.name   )
 console.log (names)
@@ -52,7 +56,7 @@ let height = characters.map( (element)=>  element.height   )
 console.log (height)
 
 
-
+// ArrayFilter
 let fliter =characters.filter( (el)=> el.mass<100);
 console.log(fliter);
 
@@ -62,10 +66,20 @@ console.log(fliter2);
 function XX(characters) {
    return characters.mass<50
 }
+// ArraySort
 characters.map(getNam2).sort();
 function getNam2(characters){
    return characters.name
 }
+const genders = characters.map(x => x.gender)
+const sortGender = genders.sort() 
+console.log(sortGender)
+
+const f = characters.filter(character => character.gender ==='female');
+console.log(f)
+
+
+// ArrayEvery-Some-Sort
 let eyes=characters.some((el)=>(el.eye_color=="blue"));
 console.log(eyes);
 let male=characters.some((el)=>(el.eye_color=="male"));
